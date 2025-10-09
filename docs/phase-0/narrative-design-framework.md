@@ -9,6 +9,12 @@
 | Daniel in the Lions' Den | Faithfulness amidst persecution | Continuing prayer, confronting accusations, entering den | Fleeing Babylon, public defense, alliance-building with officials | Daniel 6 |
 | Ruth's Journey | Loyalty and redemption | Staying with Naomi, gleaning in Boaz's field, seeking kinsman redeemer | Returning to Moab, approaching other guardians, negotiating inheritance | Ruth 1-4 |
 
+### Launch Story Priorities
+- **Daniel in the Lions' Den** will move into detailed outlining immediately. Focus the initial branch design on prayer perseverance versus self-preservation, and flag any deviations from Daniel 6 that could imply divine abandonment.
+- **Esther before the King** is greenlit alongside Daniel. Emphasize the tension between secrecy and advocacy, ensuring decision branches reinforce providence rather than vengeance.
+
+Document branch skeletons, scripture cross-references, and SME review needs for these two stories first; other candidate narratives remain in backlog until the initial pair is production-ready.
+
 ## Scene Structure Blueprint
 Each story should follow a consistent narrative skeleton while allowing unique flavor:
 
