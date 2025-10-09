@@ -28,7 +28,7 @@ Create an interactive “Choose Your Own Adventure” web experience that immers
   - Develop gameplay view: scene narration, character dialogues, choice cards, progress tracker (e.g., 15–20-step timeline).
   - Add dynamic image display per scene, handling loading states and fallbacks.
 - **Content authoring**
-  - Seed database with 1–2 stories (e.g., Joseph in Egypt, Esther before the king) including detailed branch maps.
+  - Seed database with the Daniel in the Lions' Den and Esther narratives, including detailed branch maps.
   - Document branching design format (JSON schema or markdown-like DSL).
 
 ### Phase 2 – Enhanced Experience (Weeks 5–7)
