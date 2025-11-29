@@ -5,9 +5,10 @@ import TopBar from '../TopBar';
 
 type Props = {
   story: Story;
+  onBack?: () => void;
 };
 
-export default function GameScreen({ story }: Props) {
+export default function GameScreen({ story, onBack }: Props) {
   const { currentNode, visibleChoices, selectChoice, restartGame } = useGameState(story);
 
   if (!currentNode) {
@@ -31,7 +32,7 @@ export default function GameScreen({ story }: Props) {
 
   return (
     <div className="flex flex-col gap-6">
-      <TopBar storyTitle={story.title} onRestart={restartGame} />
+      <TopBar storyTitle={story.title} onRestart={restartGame} onBackToMap={onBack} />
 
       <div className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
         <StoryView

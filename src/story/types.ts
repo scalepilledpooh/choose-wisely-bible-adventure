@@ -1,3 +1,5 @@
+import type { EraId, LocationId, StoryId } from '../world/types';
+
 export type FlagId = string;
 
 export type Choice = {
@@ -18,9 +20,11 @@ export type Node = {
 };
 
 export type Story = {
-  id: string;
+  id: StoryId;
   title: string;
   description?: string;
+  eraId: EraId;
+  locationId: LocationId;
   startId: string;
   nodes: Record<string, Node>;
 };

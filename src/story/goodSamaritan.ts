@@ -4,6 +4,8 @@ export const goodSamaritan: Story = {
   id: 'good-samaritan',
   title: 'The Road to Jericho',
   description: 'Walk the road from Jerusalem to Jericho and decide how you will respond to a wounded stranger.',
+  eraId: 'jesus',
+  locationId: 'jericho',
   startId: 'intro',
   nodes: {
     intro: {

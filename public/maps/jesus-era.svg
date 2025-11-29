@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Stylized map for the time of Jesus">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#0b1221" />
+    </linearGradient>
+    <linearGradient id="sea" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)" />
+  <ellipse cx="600" cy="260" rx="90" ry="120" fill="url(#sea)" opacity="0.9" />
+  <path d="M260 90 C 300 140 320 200 310 260 C 300 330 260 420 320 470 C 380 520 500 500 540 470 C 560 450 540 400 520 360 C 500 320 480 260 520 210 C 560 160 640 130 660 90" fill="#1f2937" stroke="#334155" stroke-width="2" opacity="0.6" />
+  <path d="M180 500 C 240 470 260 420 270 380" fill="none" stroke="#334155" stroke-width="2" opacity="0.5" />
+  <circle cx="600" cy="260" r="6" fill="#93c5fd" />
+  <text x="612" y="258" fill="#cbd5e1" font-size="12" font-family="'Work Sans', sans-serif">Sea of Galilee</text>
+  <text x="120" y="80" fill="#cbd5e1" font-size="14" font-family="'Work Sans', sans-serif">Time of Jesus</text>
+  <text x="120" y="100" fill="#94a3b8" font-size="12" font-family="'Work Sans', sans-serif">Stylized map</text>
+</svg>
