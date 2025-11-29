@@ -1,5 +1,5 @@
 {
-  "name": "choose-wisely2",
+  "name": "choose-wisely-bible-adventure",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -16,6 +16,9 @@
     "@types/react": "^18.2.21",
     "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.10",
     "typescript": "^5.2.2",
     "vite": "^5.0.0"
   }
