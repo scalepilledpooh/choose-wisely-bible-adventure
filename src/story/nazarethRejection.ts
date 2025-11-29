@@ -6,8 +6,15 @@ export const nazarethRejection: Story = {
   description: 'Jesus reads Isaiah in Nazareth; the room shifts from wonder to fury.',
   eraId: 'jesus',
   locationId: 'nazareth',
-  startId: 'synagogue',
+  startId: 'context',
   nodes: {
+    context: {
+      id: 'context',
+      title: 'Back in Nazareth',
+      passage:
+        'You return to the synagogue where you learned to read the Scriptures. Familiar faces fill the benches; whispers follow Jesus as He takes the scroll.',
+      choices: [{ id: 'to_synagogue', text: 'Watch what He will read', nextId: 'synagogue' }]
+    },
     synagogue: {
       id: 'synagogue',
       title: 'The Scroll of Isaiah',

@@ -6,8 +6,16 @@ export const goodSamaritan: Story = {
   description: 'Walk the road from Jerusalem to Jericho and decide how you will respond to a wounded stranger.',
   eraId: 'jesus',
   locationId: 'jericho',
-  startId: 'intro',
+  startId: 'setting',
   nodes: {
+    setting: {
+      id: 'setting',
+      title: 'A Dangerous Road',
+      reference: 'Luke 10:30',
+      passage:
+        'You leave Jerusalem and descend toward Jericho. The road is steep, twisting between rocks where bandits wait. Travelers avoid eye contact and walk quickly.',
+      choices: [{ id: 'to_intro', text: 'Continue down the road', nextId: 'intro' }]
+    },
     intro: {
       id: 'intro',
       title: 'A Sudden Sight',

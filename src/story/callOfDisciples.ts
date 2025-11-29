@@ -6,8 +6,15 @@ export const callOfDisciples: Story = {
   description: 'Jesus steps into your boat at Capernaum and asks you to push out one more time.',
   eraId: 'jesus',
   locationId: 'capernaum',
-  startId: 'shore',
+  startId: 'context',
   nodes: {
+    context: {
+      id: 'context',
+      title: 'Hometown Waters',
+      passage:
+        'Capernaum’s shoreline is familiar—the smell of nets, Roman patrols on the road, and crowds hungry for stories of healing. You know every inlet of this lake.',
+      choices: [{ id: 'to_shore', text: 'Head to your boat', nextId: 'shore' }]
+    },
     shore: {
       id: 'shore',
       title: 'Morning on the Lake',
@@ -91,6 +98,14 @@ export const callOfDisciples: Story = {
       title: 'Leaving Nets Behind',
       passage:
         'You step onto the shore, nets dripping behind you, and walk into a story larger than the sea.',
+      choices: [],
+      isEnding: true
+    },
+    missed_voice: {
+      id: 'missed_voice',
+      title: 'Missed Invitation',
+      passage:
+        'You stay on shore, fixing nets while the crowd leans in. His voice fades behind you.',
       choices: [],
       isEnding: true
     }

@@ -6,8 +6,15 @@ export const petersDenial: Story = {
   description: 'In the high priest’s courtyard, whispers turn toward you. Will you stand with Jesus?',
   eraId: 'jesus',
   locationId: 'jerusalem',
-  startId: 'courtyard',
+  startId: 'context',
   nodes: {
+    context: {
+      id: 'context',
+      title: 'Jerusalem at Night',
+      passage:
+        'Passover fills Jerusalem. Roman torches line the streets. After the arrest in Gethsemane, you follow at a distance to the high priest’s house.',
+      choices: [{ id: 'to_courtyard', text: 'Slip into the courtyard', nextId: 'courtyard' }]
+    },
     courtyard: {
       id: 'courtyard',
       title: 'Cold Night',

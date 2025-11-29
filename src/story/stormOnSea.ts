@@ -6,8 +6,15 @@ export const stormOnSea: Story = {
   description: 'Night wind rises on the Sea of Galilee. Will you panic or trust?',
   eraId: 'jesus',
   locationId: 'sea_of_galilee',
-  startId: 'nightfall',
+  startId: 'context',
   nodes: {
+    context: {
+      id: 'context',
+      title: 'Crossing Familiar Waters',
+      passage:
+        'You have crossed this lake hundreds of times. Tonight, Jesus suggests a crossing after a long day of teaching. The sky looks calm, but darkness comes quickly here.',
+      choices: [{ id: 'to_nightfall', text: 'Push off from shore', nextId: 'nightfall' }]
+    },
     nightfall: {
       id: 'nightfall',
       title: 'Crossing at Dusk',
