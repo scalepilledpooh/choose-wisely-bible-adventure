@@ -15,7 +15,7 @@ export const eras: Era[] = [
     id: 'jesus',
     label: 'Time of Jesus',
     yearRange: 'c. AD 26–33',
-    mapImageUrl: '/maps/jesus-era.svg'
+    mapImageUrl: '/maps/jesus-era.png'
   },
   {
     id: 'david',
